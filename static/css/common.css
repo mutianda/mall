@@ -1,0 +1,42 @@
+*{margin:0; padding:0;}
+body{font-size:14px;font-family:"microsoft YaHei"; background:#f4f5f7; }
+a{ text-decoration:none; }
+a:hover{text-decoration:underline;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.header{overflow: hidden; width:1200px; height: 50px; margin:25px auto 0 auto;}
+.header .logo{width:300px; float:left;}
+.header .auth{ float:right;}
+.header ul{list-style: none;overflow: hidden;line-height:60px; }
+.header ul li{float:left;margin-right:50px;}
+.header ul li a{color:#000; }
+
+.content{width: 1200px; height:auto; margin: 0 auto; margin-top:20px; }
+
+.footer { height:88px; margin:60px auto 0 auto; width:1200px; border-top:1px solid #CCC; overflow:hidden; }
+.footer p{text-align: center;line-height: 88px;margin:0px;}
+.footer p span{color:#f96972;}
+.header.auth fr ul li button{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-shadow: 0px 1px 0px #2f6627;
+    -webkit-box-shadow: -30px -21px 4px -30px #666666;
+    -moz-box-shadow: -30px -21px 4px -30px #666666;
+    box-shadow: -30px -21px 4px -30px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #44c767;
+    padding: 12px 30px 12px 30px;
+    border: solid #18ab29 1px;
+    text-decoration: none;
+}
+
+.header.auth fr ul li button:hover {
+    color: #ffffff;
+    background: #5cbf2a;
+    text-decoration: none;
+}
